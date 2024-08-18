@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quizz app</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-black">
+    <div id="card" class="bg-black shadow-white w-7/12 mx-auto mt-[55px] mb-[45px] rounded-3xl px-[30px] py-[25px] my-auto shadow-2xl">
+        <div class="heading font-serif text-4xl font-semibold px-6 py-6 text-white">
+            <h1 class="">Simple quiz</h1>
+        </div>
+
+        <div class="border-t border-gray-300"></div>
+
+        <div id="quiz" class="mt-4 hidden" >
+            <span id="question" class="text-2xl w-5/6 ml-3 text-white text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium quidem asperiores, quibusdam, aperiam soluta aliquid voluptates eum enim natus voluptate ab sint quis, magni cum modi optio alias. Ad!</span>
+            <div id="options">
+                <ul class="flex-row px-6 py-6 text-white" id="ul">
+                    <li class="border-slate-600 border-2 rounded-3xl ml-3 pl-4 w-2/3 py-3 my-3 text-xl cursor-pointer hover:bg-sky-700 active:bg-violet-700" id="li">option1</li>
+                    <li class="border-slate-600 border-2 rounded-3xl ml-3 pl-4 w-2/3 py-3 my-3 text-xl cursor-pointer hover:bg-sky-700 active:bg-violet-700" id="li">option2</li>
+                    <li class="border-slate-600 border-2 rounded-3xl ml-3 pl-4 w-2/3 py-3 my-3 text-xl cursor-pointer hover:bg-sky-700 active:bg-violet-700" id="li">option3</li>
+                    <li class="border-slate-600 border-2 rounded-3xl ml-3 pl-4 w-2/3 py-3 my-3 text-xl cursor-pointer hover:bg-sky-700 active:bg-violet-700" id="li">option4</li>
+                </ul>
+            </div>
+            
+        </div>
+        <button id="button" class="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg ml-40">
+            Start Quiz
+          </button>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
