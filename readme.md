@@ -5,3 +5,7 @@ this is a quizz app which functions by sending an api request and gets 10 questi
 last work was on 18 8 24 
 
 will update the project and add new features in the future
+
+# scope of new features
+- adding scoreboard after finishing
+- ui improvements
